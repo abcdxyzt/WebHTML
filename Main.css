@@ -1,0 +1,59 @@
+:root
+{
+   --MauXanhDuong-color: blue ;
+   --MauCam-color: orange; 
+   --MauDo-color: Red; 
+   --MauXanhLaCay-color: green; 
+   --MauXanhDam-color: rgb(11, 255, 11); 
+   --CoChu: 38; 
+   --CoChu2: 40; --CoChu3: 36; 
+
+}
+
+h2
+{
+   color: var( --MauDo-color); 
+   font-size: var(--CoChu);
+}
+
+p1
+{
+   color: var( --MauCam-color); 
+   font-size: var(--CoChu);
+}
+
+ h1
+ {
+   color: var( --MauCam-color); 
+   font-size: var(--CoChu);
+ }
+
+ h2
+ {
+    color: var(--MauDo-color) ;
+    font-size: var(--CoChu2);
+ }
+
+ body
+ {
+    color: (var(--MauXanhLaCay-color)); 
+    font-size: var(--CoChu);
+ }
+ form 
+ {
+    color: var(--MauXanhLaCay-color);
+    font-size: Var(--CoChu) ;
+ }
+
+ input 
+ {
+    color:  var(--MauXanhLaCay-color);
+    font-size: Var(--CoChu) ;
+ }
+
+ button
+ {
+    color: var(--MauXanhDam-color);  
+    font-size: Var (var(--CoChu2)) ;
+ }
+ 
